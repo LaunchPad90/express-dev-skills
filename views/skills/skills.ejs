@@ -1,0 +1,17 @@
+<%- include ../partials/header %>
+
+<body>
+<main>
+    <h1><%= title %></h1>
+    <ul>
+        <% devSkills.forEach(function(skill, id) { %>
+        <li>
+           <form class="skill-form" action="/skills/<%= id %>?_method=DELETE" type="submit" method="POST"><button>x</button></form> <a href="/skills/<%=id%>"><%= skill.skill %></a>
+            <% }); %>
+        </li>
+    </ul>
+    <a href="/skills/newSkill">Add Skill</a>
+</main>
+</body>
+
+</html>

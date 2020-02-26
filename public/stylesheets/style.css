@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: bisque;
+}
+main {
+  display: grid;
+  margin: 0 auto;
+}
+.skill-form {
+  display: inline-block;
+}
+h1 {
+  font-size: 50px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+li > button {
+  display: inline-block;
+  font-size: 20px;
+}
+
+li {
+  font-size: 25px;
+  list-style: none;
+}

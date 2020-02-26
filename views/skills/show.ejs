@@ -1,0 +1,13 @@
+<%- include ../partials/header %>
+
+<body>
+    <h1>Skill #<%= skillNum %></h1>
+<main>
+    <h3><%= skill.skill %></h3>
+    <h3>Learned: <%= skill.proficient ? 'Much to Learn' : 'Still SO much to learn' %></h3>
+    <a href="/skills/<%= skillNum - 1 %>/edit">Edit Skill</a>
+</main>
+    
+</body>
+
+</html>
